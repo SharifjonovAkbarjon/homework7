@@ -1,0 +1,413 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.main__picture{
+    width: 70px
+}
+.basic{
+    width: 100%;
+    height: 80px;
+    background:white ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 50px;
+    gap: 50px;
+}
+
+.basic__logo{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar__collection{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar__item{
+    font-size: 18px;
+    
+}
+
+.collection{
+    display: flex;
+    gap: 30px;
+    list-style: none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1;
+}
+
+.search{
+    outline: none ;
+}
+
+.search__div{
+    outline: none;
+    text-indent: 12px;
+    border: 1px solid #42454b;
+    width: 100px;
+    height: 20px;
+    
+    
+}
+
+.search__svg{
+    width: 20px;
+    height: 20px;
+}
+
+.basic__image{
+    width: 100lvw;
+}
+
+.kategoriya__sarlavha{
+margin: 0px 70px;
+
+}
+
+.paragraph{
+    margin: 30px 70px 0;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+
+.main__kategoriya{
+    margin: 10px 0px 10px 70px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.kategoriya__mazali{
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+   width: 16%;
+}
+
+.kategoriya__oziq{
+    width: 11%;
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+}
+
+.kategoriya__yarim{
+    width: 11%;
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+}
+
+.kategoriya__bar{
+    width: 7%;
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+}
+
+.kategoriya__sham{
+    width: 10%;
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+}
+
+.kategoriya__aksiya{
+    width: 5%;
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+}
+
+.kategoriya__safia{
+    width: 6%;
+    border-radius: 15px;
+   color: aliceblue; 
+   background: lightcoral;
+   outline: none;
+   border: none;
+   height: 30px;
+}
+
+.cake__main{
+    width: 100%;
+    height: 70px;
+    background: lightcoral;
+    font-size: x-large;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0
+}
+
+.paragraph__cake{
+    text-align: center;
+    padding: 17px;
+    text-transform: uppercase;
+}
+
+.wrapper{
+    padding: 30px 0;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.rect{
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    /* border: black; */
+    padding: 50px;
+    /* box-shadow: 0 0 25px #000200; */
+     /*  */
+}
+
+.card__pechenye{
+    width: 100%;
+}
+
+.pechenye__paragraph{
+display: block;
+text-align: center;
+}
+
+.card__pirog{
+    width: 100%;
+}
+
+.pirog__paragraph{
+    display: block;
+    text-align: center
+
+}
+
+.card__aylanatort{
+    width: 100%;
+}
+
+.aylanatort__text{
+    text-align: center;
+}
+
+.card__ekler{
+    width: 100%;
+}
+
+.ekler__text{
+    display: block;
+    text-align: center;
+}
+
+
+.card__bigpirog{
+    width: 100%;
+}
+
+.pirog__text{
+    display: block;
+    text-align: center;
+}
+
+.card__bigcake{
+    width: 100%;
+}
+
+.cake__text{
+    display: block;
+    text-align: center;
+}
+
+.card__pirojni{
+    width: 100%;
+}
+
+.pirojni__text{
+    display: block;
+    text-align: center;
+}
+    
+.card__makaron{
+    width: 100%;
+}    
+
+.makaron__text{
+    display: flex;
+    text-align: center;
+}
+
+.card__minitort{
+    width: 100%;
+}
+
+.tort__text{
+    display: block;
+    text-align: center;
+}
+
+.card__sodoba{
+    width: 100%;
+}
+
+.sodoba__text{
+    display: block;
+    text-align: center;
+}
+
+.card__chak{
+    width: 100%;   
+    margin: 15px 5px;
+}
+
+.chak__text{
+    display: block;
+    text-align: center;
+}
+
+.card__safia{
+    width: 100%;
+}        
+
+.safia__text{
+    display: block;
+    text-align: center;
+}
+
+.card__zanjabil{
+    width: 100%;
+}
+
+.zanjabil__text{
+    display: block;
+    text-align: center;
+}
+
+.card__product{
+    width: 100%;
+}
+
+.product__text{
+    display: block;
+    text-align: center;
+}
+
+.card__pishiriq{
+    width: 100%;
+}
+
+.pishiriq__text{
+    display: block;
+    text-align: center;
+}
+
+.card__keks{
+    width: 100%;
+}
+
+.keks__text{
+    display: block;
+    text-align: center;
+}
+
+.footer{
+    /* border: 1px solid red; */
+    height: 400px;
+    display: flex;
+    padding: 0 60px;
+    background: rgba(12, 7, 1, 0.789);
+    color: aliceblue;
+}
+
+.footer__item{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+.item__picture{
+    width: 100%;
+
+}
+
+.kompany__heading{
+    text-align: center;
+}
+
+.item__headin{
+    text-align: center;
+    padding: 20px;
+}
+
+.item__contact{
+    text-align: center;
+}
+
+.item__phone{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .basic{
+    width: 100%;
+    height: 80px;
+    background: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 50px;
+    gap: 50px;
+}
+
+.basic__logo{
+    color: black;
+} */
